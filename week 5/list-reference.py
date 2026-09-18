@@ -46,6 +46,24 @@ def main():
     # Output: ['apple', 'banana', 'cherry', ['date', 'elderberry']]
 
 
+    x = len("hello")
+
+    print(x)
+    password = [1, 2, 3, 4, 5, 6, 7, 8]
+    xx = ["a", "b", "c", "d"]
+    print(len(xx))
+    print(password)
+    change = input(" ")
+    if change == "y":
+        password[1] = 4
+        password[0] = 2
+        password[7] = 1
+        password[6] = 9
+        password[5] = 10
+        print(password)
+
+
+
 
 if __name__=="__main__":
     main()
