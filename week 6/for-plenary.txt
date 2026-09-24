@@ -1,0 +1,17 @@
+1. Write a description for a while loop.
+    A while loop is when theres  loop that repeats its self as long as
+the condition is true.
+
+
+2. Write a description for a for loop.
+    A for loop is used when you know how many times you wan to repeat
+the loop.
+
+
+
+
+3. Compare a while loop to a for loop
+    They both make a loop but a while loop depends on the condition and a for
+based on the range.
+
+
