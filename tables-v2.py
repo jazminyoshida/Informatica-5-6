@@ -4,7 +4,7 @@ def main():
       valid_nums.append(str(i))
 
    while True:
-      times_table = input("Enter the times tables you would like to be tested on: ").lower().strip()
+      times_table = input("Enter the times tables you would like to be tested on or exit: ").lower().strip()
 
       if times_table == "exit":
          break
@@ -16,8 +16,7 @@ def main():
 
         for x in range (1, max_value + 1):
             answer = x * int(times_table)
-            print(f"{x} times {times_table} is {answer}")
-
+            print(f"{x} times {times_table} is ") #{answer} if you want to show the answer 
             user_answer = int(input("Answer: "))
             if user_answer == answer:
                print("Correct!")
