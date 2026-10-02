@@ -16,7 +16,7 @@ def main():
 
         for x in range (1, max_value + 1):
             answer = x * int(times_table)
-            print(f"{x} times {times_table} is ") #{answer} if you want to show the answer 
+            print(f"{x} times {times_table} is ") #{answer} if you want to show the answer
             user_answer = int(input("Answer: "))
             if user_answer == answer:
                print("Correct!")
